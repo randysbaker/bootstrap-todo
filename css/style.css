@@ -1,0 +1,38 @@
+/***************************************************
+ *   BY: Al
+ *   ON: 07-MAY-2019
+ * FILE: style.css
+ * NOTE: Core styles...
+ ***************************************************/
+
+/*************************
+ Main Styles
+ *************************/
+header {
+  padding: 156px 0px 100px;
+}
+
+section {
+  padding: 150px 0px;
+}
+
+/*************************
+ Form Styles
+ *************************/
+.task-form label {
+ 	font-weight: 600;
+ }
+
+ .task-form label.error {
+ 	font-weight: 400;
+ 	font-size: .95em;
+ 	color: #FF0000;
+ }
+
+/*************************
+ Alert Styles
+ *************************/
+.alert {
+	display: inline-block;
+	margin-left: 10px;
+}
